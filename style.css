@@ -27,8 +27,14 @@ body{
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     margin: auto;
-   
-    
-    
 
+}
+
+#card{
+    border-radius: 20px;
+    padding: 0.2rem;
+}
+
+#img{
+    border-radius: 15px;
 }

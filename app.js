@@ -26,7 +26,7 @@ function getPeliculas(){
             const {Title,Year,Poster} = element;
             html += `
                 <div class="card"  id="card">
-                    <img src="${Poster}" alt="...">
+                    <img src="${Poster}" alt="..." id="img">
                     <div class="card-body">
                         <h5 class="card-title">${Title}</h5>
                         <p class="card-text">Year ${Year}</p>
