@@ -27,8 +27,6 @@ body{
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     margin: auto;
-    border: 2px solid red;
-
 }
 
 #card{
