@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(17, 37, 27);
+    background-color: rgb(18, 38, 28);
     
 }
 .title{
@@ -27,6 +27,9 @@ body{
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     margin: auto;
+    background-color: rgb(18, 38, 28);
+    padding: 10px;
+    padding-top: 20px;
 }
 
 #card{
@@ -40,7 +43,15 @@ body{
 }
 
 .principal{
-    margin-top: 3rem;
+    margin-top: 0;
     margin-bottom: 4rem;
 }
 
+#nav{
+    background-color: rgba(173, 201, 173, 0.1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.letra{
+    color: aliceblue;
+}

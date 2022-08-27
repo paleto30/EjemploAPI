@@ -48,24 +48,19 @@ function getPeliculas() {
 
 function buscar() {
     const btnSearch = document.getElementById("text").value;
-    console.log("funcion buscar: ", btnSearch);
     const urlSearch = `https://www.omdbapi.com/?apikey=fcdb07e5&s=${btnSearch}`;
-    console.log(urlSearch);
     alert(urlSearch);
     fetch(urlSearch)
     .then((response)=>{
         return response.json();
     })
     .then((data) => {
-        console.log(data);
         renderMovies(data);
     })
 function renderMovies(movies) {
     const contMovies = document.querySelector("#contenedorPelis");
     let html = '';
-
     for (const x in movies.Search) {
-        //console.log(x);
         const { Title, Year, Poster } = movies.Search[x];
         html += `
             <div class="card"  id="card">
