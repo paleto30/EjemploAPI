@@ -33,8 +33,15 @@ body{
 #card{
     border-radius: 20px;
     padding: 0.2rem;
+    margin-bottom: 2rem;
 }
 
 #img{
     border-radius: 15px;
 }
+
+.principal{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
